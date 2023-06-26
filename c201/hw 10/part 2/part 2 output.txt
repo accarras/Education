@@ -1,0 +1,53 @@
+list1 has 5 nodes
+Here is the content of list1:
+           Name     GPA
+   ============  ======
+            Tom     2.6
+          Frank     3.1
+           John     2.8
+          Steve     3.4
+            Joe     3.6
+
+Now we copy list1 to list2.
+list2 has 5 nodes
+Here is the content of list2:
+           Name     GPA
+   ============  ======
+            Tom     2.6
+          Frank     3.1
+           John     2.8
+          Steve     3.4
+            Joe     3.6
+
+Now we remove the node at the front of list2.
+Here is the content of list2:
+           Name     GPA
+   ============  ======
+          Frank     3.1
+           John     2.8
+          Steve     3.4
+            Joe     3.6
+
+Now we remove the node at the end of list2.
+Here is the content of list2:
+           Name     GPA
+   ============  ======
+          Frank     3.1
+           John     2.8
+          Steve     3.4
+
+Now we search list2 by name for Steve : found! Steve's GPA is 3.4
+Now we search list2 by name for Kim : not found!
+
+deleting list1......
+deleting Tom
+deleting Frank
+deleting John
+deleting Steve
+deleting Joe
+
+deleting list2......
+deleting Frank
+deleting John
+deleting Steve
+Press any key to continue . . .

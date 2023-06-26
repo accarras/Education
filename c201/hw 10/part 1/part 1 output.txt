@@ -1,0 +1,12 @@
+Conversion (and default) constructor:
+Conversion (and default) constructor: CCC
+Conversion (and default) constructor: BBB
+Conversion (and default) constructor: DDD
+Conversion (and default) constructor:
+strA: AAA is not same as strB: BBB
+strC: CCC < strD: DDD
+strAB: AAABBB
+strAB: AABBBB
+Conversion (and default) constructor: FFF
+Conversion (and default) constructor:
+strF: AAAFFF

@@ -1,0 +1,18 @@
+Enter an integer:
+A
+Enter a valid integer.
+Enter an integer:
+24t
+Enter a valid integer.
+Enter an integer:
+24.8
+Enter a valid integer.
+Enter an integer:
+r56
+Enter a valid integer.
+Enter an integer:
+-67
+Enter a valid integer.
+Enter an integer:
+67
+Press any key to continue . . .

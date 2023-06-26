@@ -1,0 +1,39 @@
+Print list1:
+This list has 3 nodes.
+Here are the nodes of the list:
+7 8 12
+list1 is ordered.
+
+Print list1:
+This list has 6 nodes.
+Here are the nodes of the list:
+19 7 8 12 27 21
+list1 is not ordered.
+
+Now we assign list1 to list2.
+Print list2:
+This list has 6 nodes.
+Here are the nodes of the list:
+19 7 8 12 27 21
+
+Print list3:
+This list has 1 nodes.
+Here are the nodes of the list:
+15
+
+Now we concatenate list2 to list3.
+Print list3:
+This list has 7 nodes.
+Here are the nodes of the list:
+15 19 7 8 12 27 21
+Print list2:
+This list has 0 nodes.
+
+Now do a searching on list3.
+Please input a number to search: 5
+5 not found in list3
+Do you want to do another search? (y/n): y
+Please input a number to search: 12
+12 found in list3!
+Do you want to do another search? (y/n): n
+Press any key to continue . . .

@@ -1,0 +1,33 @@
+How many disks?: 5
+Move disk from 1 to 2
+Move disk from 1 to 3
+Move disk from 2 to 3
+Move disk from 1 to 2
+Move disk from 3 to 1
+Move disk from 3 to 2
+Move disk from 1 to 2
+Move disk from 1 to 3
+Move disk from 2 to 3
+Move disk from 2 to 1
+Move disk from 3 to 1
+Move disk from 2 to 3
+Move disk from 1 to 2
+Move disk from 1 to 3
+Move disk from 2 to 3
+Move disk from 1 to 2
+Move disk from 3 to 1
+Move disk from 3 to 2
+Move disk from 1 to 2
+Move disk from 3 to 1
+Move disk from 2 to 3
+Move disk from 2 to 1
+Move disk from 3 to 1
+Move disk from 3 to 2
+Move disk from 1 to 2
+Move disk from 1 to 3
+Move disk from 2 to 3
+Move disk from 1 to 2
+Move disk from 3 to 1
+Move disk from 3 to 2
+Move disk from 1 to 2
+Press any key to continue . . .

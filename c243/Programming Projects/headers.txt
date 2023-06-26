@@ -1,0 +1,9 @@
+void input();
+
+void randomize(int limit=100);
+
+bool operator ==(My_array &data);
+
+bool operator !=(My_array &data);
+
+int hamming(My_array &data);

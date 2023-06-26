@@ -1,0 +1,41 @@
+//stack array
+void push(int data){
+  if (sp == sizeof(array)){ // simplify to (sp == known size)
+    cout << "Stack full";
+  }
+  else {
+    array[++sp] = data;
+  }
+}
+
+int pop()
+{
+  if (sp == -1){
+    cout << "Stack Empty";
+	}
+  else {
+    return array[sp--];
+	}
+}
+
+//stack linked list
+void push(int data)
+{
+  int_Node *newNode = new int_node;
+  newNode->datum = data;
+  newNode->next = sp;
+  sp = newNode;
+}
+
+int pop()
+{
+  node *temp = sp;
+  sp = sp->next;
+  return *temp->datum;
+  delete temp;
+}
+  
+  
+
+  
+	

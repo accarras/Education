@@ -1,0 +1,41 @@
+
+C:\Users\Tony\Documents\Visual Studio 2015\Projects\ConsoleApplication7\Debug>consoleapplication7 3 3
+-----------------------------------------------------------
+First argument is data type:
+1 ----------- Sort integer array
+2 ----------- Sort double array
+3 ----------- Use character array
+-----------------------------------------------------------
+-----------------------------------------------------------
+Second argument is algorithm.
+1 ----------- Use selection sort
+2 ----------- Use bubble sort
+3 ----------- Use insertion sort
+-----------------------------------------------------------
+Enter 10 char elements.
+q
+w
+e
+r
+t
+y
+u
+i
+o
+p
+Here is your unsorted array:
+q w e r t y u i o p
+q w e r t y u i o p
+e q w r t y u i o p
+e q r w t y u i o p
+e q r t w y u i o p
+e q r t w y u i o p
+e q r t u w y i o p
+e i q r t u w y o p
+e i o q r t u w y p
+e i o p q r t u w y
+Would you like to do another test? (y/n):n
+
+Thank you for using the program! Bye!
+
+C:\Users\Tony\Documents\Visual Studio 2015\Projects\ConsoleApplication7\Debug>

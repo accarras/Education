@@ -1,0 +1,16 @@
+bTree extractMin(){
+	int min = 100;
+
+	if (isLeaf){
+		return new leaf(infinity);
+	}
+
+	if (data == left.data){
+		return left.extractMin().play(right);
+		}
+		
+	else{
+		left.play(right.extractMin());
+	}
+
+}

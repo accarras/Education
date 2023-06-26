@@ -1,0 +1,37 @@
+
+Car v1 (constructed) Data:
+Ford
+4
+James Carter
+
+Car v2 (assigned) Data:
+Ford
+4
+James Carter
+
+Car v3 (copy constructed) Data:
+Ford
+4
+James Carter
+
+Truck T1 (constructed) data:
+Mac
+8
+John Q. Driver
+80
+20000
+
+Truck T2 (assigned) data:
+Mac
+8
+John Q. Driver
+80
+20000
+
+Truck T3 (copy constructed) data:
+Mac
+8
+John Q. Driver
+80
+20000
+Press any key to continue . . .

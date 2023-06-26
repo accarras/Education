@@ -1,0 +1,44 @@
+Choose size of pizza:
+Enter 1 for small
+Enter 2 for medium
+Enter 3 for large
+1
+Choose type of crust:
+Enter 1 for deep dish
+Enter 2 for hand tossed
+Enter 3 for pan pizza
+1
+Enter number of cheese toppings you would like: 1
+Enter number of pepperoni toppings you would like: 1
+You selected a small, deep dish pizza, with 1 cheese, and 1 pepperoni, for a total cost of $14.
+Press any key to continue . . .
+
+Choose size of pizza:
+Enter 1 for small
+Enter 2 for medium
+Enter 3 for large
+2
+Choose type of crust:
+Enter 1 for deep dish
+Enter 2 for hand tossed
+Enter 3 for pan pizza
+2
+Enter number of cheese toppings you would like: 2
+Enter number of pepperoni toppings you would like: 2
+You selected a medium, hand tossed pizza, with 2 cheese, and 2 pepperoni, for a total cost of $22.
+Press any key to continue . . .
+
+Choose size of pizza:
+Enter 1 for small
+Enter 2 for medium
+Enter 3 for large
+3
+Choose type of crust:
+Enter 1 for deep dish
+Enter 2 for hand tossed
+Enter 3 for pan pizza
+3
+Enter number of cheese toppings you would like: 3
+Enter number of pepperoni toppings you would like: 3
+You selected a large, pan pizza, with 3 cheese, and 3 pepperoni, for a total cost of $29.
+Press any key to continue . . .

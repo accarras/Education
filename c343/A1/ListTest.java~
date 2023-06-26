@@ -1,0 +1,21 @@
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class ListTest {
+
+    @Test
+    public void length () {
+        List xs = new Node(1,new Node(2, new Node (3, new Empty())));
+        assertEquals(3, xs.length());
+    }
+
+    @Test
+    public void append () {
+        List xs = new Node(1,new Node(2, new Node(3, new Empty())));
+        List ys = new Node(4, new Node (5, new Empty()));
+        List zs = new Node(1,new Node(2, new Node(3, new Node(4, new Node(5, new Empty())))));
+        assertEquals(zs, xs.append(ys));
+    }
+
+}

@@ -1,0 +1,158 @@
+#include <iostream>
+#include <fstream>
+//#include <istream>
+#include <cstdlib>
+//#include <string>
+#include <sys/time.h>
+using namespace std;
+
+struct timeval before, after;
+double timing;
+string unused;
+
+void swap(int& v1, int& v2);
+
+void bubbleSort(int data[], int size);
+void selectionSort(int data[], int size);
+void insertionSort(int data[],int size);
+void quickSort(int data[], int left, int right);
+
+int main()
+{
+  int numLines = 0;
+  /*string fileName;
+  cout << "Enter File Name: ";
+  cin >> fileName;*/
+  
+  ifstream inStream;
+  inStream.open("test.txt");
+  if (inStream.fail()){
+	cout << "Input Failed. \n";
+	exit(1);
+  }
+  
+  while (getline(inStream, unused))
+	++numLines;
+
+  int *data = new int[numLines];
+  
+  for (int i = 0; i < numLines; i++){
+	  inStream >> data[i];
+  }
+
+
+ // data[numLines] = 0;
+
+  for (int i = 0; i < numLines; i++){
+      cout << data[i]<< endl;
+    }
+
+  /*
+  int *workingSet = new int[numLines];
+  
+  for (int i = 0; i < numLines; i++){
+    workingSet[i] = data[i];
+  }
+  //bubbleSort(data, 10);
+  ofstream bubble("bubblesort.dat");
+    for (int i = 0; i < 10; i++)
+    {
+      bubble << data[i] << endl;
+    }
+    bubble.close();
+  */
+  inStream.close();
+  
+  //delete data;
+  
+  return 0;
+
+}
+
+void swap(int& v1, int& v2)
+{
+    int temp;
+    temp = v1;
+    v1 = v2;
+    v2 = temp;
+}
+
+void bubbleSort(int data[], int size)
+{
+	bool sorted = false;
+	while (!sorted) 
+	{
+		sorted = true;
+		for (int i = 0; i< size - 1; i++)
+		{
+			if (data[i] > data[i+1])
+			{
+				swap(data[i], data[i+1]);
+				sorted = false;
+			}
+		}
+	}
+}
+
+void selectionSort(int data[], int size)
+{
+//pos_min is short for position of min
+	int pos_min,temp;
+
+	for (int i=0; i < size-1; i++)
+	{
+	    pos_min = i;//set pos_min to the current index of array
+		
+		for (int j=i+1; j < size; j++)
+		{
+		  if (data[j] < data[pos_min])
+                   pos_min=j;
+	//pos_min will keep track of the index that min is in, this is needed when a swap happens
+		}
+		
+	//if pos_min no longer equals i than a smaller value must have been found, so a swap must occur
+            if (pos_min != i)
+            {
+			  swap(data[i],data[pos_min]);
+            }
+	}
+}
+
+void insertionSort(int data[],int size)
+{
+  int temp;
+  int j;
+  
+  for (int i = 1; i < size; i++)
+  {
+	temp = data[i];
+	for (j = i;(j > 0) && (temp < data[j-1]); j--)
+	{
+	  data[j] = data[j-1];
+	  data[j] = temp;
+	}
+  }
+}
+
+void quickSort(int data[], int left, int right)
+{
+  int i, j;
+  int partition;
+  
+  if (right > left){
+	partition = data[right]; i = left - 1; j = right;
+	
+	for(;;){
+	  while (data[++i] < partition);
+	  while (data[--j] > partition);
+	  if (i >= j) break;
+	  swap(data[i], data[j]);
+	}
+	
+	swap(data[i], data[right]);
+	
+	quickSort(data, left, i - 1);
+	quickSort(data, i + 1, right);
+  }
+}
+

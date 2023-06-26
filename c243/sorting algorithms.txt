@@ -1,0 +1,37 @@
+//bubble sort
+for (int i = 0; i < numberUsed - 1; i++)
+		{
+			if (a[i] > a[i+1]) 
+			{
+				int temp = a[i]
+				a[i] = a[i+1]
+                                a[i+1] = temp;
+				sorted = false;
+				printAll(a, numberUsed);
+			}
+		}
+
+First Pass  – 4 2 7 5 9 10  8 6 1 14
+Second Pass – 2 4 5 7 9 8 6 1 10 14
+
+//selection sort
+
+First Pass – 1 7 4 2 9 5 10 14 8 6
+Second Pass – 1 2 7 4 9 5 10 14 8 6
+Third Pass – 1 2 4 7 9 5 10 14 8 6
+
+//insertion sort
+
+7 4 2 9 5 10 14  8  6  1
+4 7 2 9 5 10 14  8  6  1
+2 4 7 9 5 10 14  8  6  1
+2 4 7 9 5 10 14  8  6  1
+2 4 5 7 9 10 14  8  6  1
+2 4 5 7 9 10 14  8  6  1
+2 4 5 7 9 10 14  8  6  1
+2 4 5 7 8 9  10 14  6  1
+2 4 5 6 7 8   9 10 14  1
+1 2 4 5 6 7   8  9 10 14
+
+
+

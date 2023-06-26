@@ -1,0 +1,9 @@
+Please enter a file name to read: employees.txt
+Information of the Employee:
+ First      Last            SSN    Hourly Wage Hours Worked    Time Pay   Overtime Pay    Status   Net Pay
+  John     Smith    123-09-8765           9.00           46      360.00          81.00         F    431.00
+ Kevin     Ashes    321-09-8444           9.50           40      380.00           0.00         F    370.00
+   Kim     Cares    131-12-1231          11.25           50      450.00         168.75         P    618.75
+ Trish      Dish    141-51-4564           7.52           24      180.48           0.00         P    180.48
+  Kyle     Wader    432-12-9889           5.75           48      230.00          69.00         F    289.00
+Press any key to continue . . .

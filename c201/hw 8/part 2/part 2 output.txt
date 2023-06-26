@@ -1,0 +1,63 @@
+We have two administrators
+Now enter the data for the first administrator.
+Enter the administrators name: James Smith
+
+Enter SSN: 1111-22-3333
+
+Enter the administrators title: CFO
+
+Enter an area of responsibility: Finance
+
+Enter Supervisor name: Tom Hanks
+
+Enter Salary: 120000
+
+
+Now enter the data for the second administraor.
+Enter the administrators name: Tim Franks
+
+Enter SSN: 4444-55-6666
+
+Enter the administrators title: CTO
+
+Enter an area of responsibility: Technology
+
+Enter Supervisor name: Tom Hanks
+
+Enter Salary: 150000
+
+Name: James Smith
+Annual Salary: $120000.00
+Social Security Number: James Smith
+Title: CFO
+Responsibility: Finance
+Supervisor: Tom Hanks
+Annual Salary: 120000.00
+Here is the pay check for James Smith
+
+__________________________________________________
+Pay to the order of James Smith
+The sum of $10000.00 Dollars
+_________________________________________________
+Check Stub NOT NEGOTIABLE
+Employee Number: James Smith
+Administrative Employee.
+_________________________________________________
+Name: Tim Franks
+Annual Salary: $150000.00
+Social Security Number: Tim Franks
+Title: CTO
+Responsibility: Technology
+Supervisor: Tom Hanks
+Annual Salary: 150000.00
+Here is the pay check for Tim Franks
+
+__________________________________________________
+Pay to the order of Tim Franks
+The sum of $12500.00 Dollars
+_________________________________________________
+Check Stub NOT NEGOTIABLE
+Employee Number: Tim Franks
+Administrative Employee.
+_________________________________________________
+Press any key to continue . . .

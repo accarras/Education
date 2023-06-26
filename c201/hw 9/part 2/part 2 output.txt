@@ -1,0 +1,38 @@
+********
+********
+********
+********
+********
+********
+rect.center() called, press enter to continue...
+
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+tri.center() called, press enter to continue...
+
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+fig1->center() called, press enter to continue...
+
+         *
+        ***
+       *****
+      *******
+     *********
+    ***********
+   *************
+  ***************
+ *****************
+*******************
+fig2->center() called, press enter to continue...
+Press any key to continue . . .

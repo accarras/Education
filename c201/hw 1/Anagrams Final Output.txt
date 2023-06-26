@@ -1,0 +1,31 @@
+Enter First String:                                                                                   tony
+Enter Second String: 
+tony
+Anagrams 
+
+Enter First String:                                                                                   tony
+Enter Second String: 
+ynot             
+Anagrams 
+
+Enter First String:                                                                                   tony
+Enter Second String: 
+tonyy             
+Not Anagrams
+
+Enter First String:                                                                                   tony
+Enter Second String: 
+to ny            
+Not Anagrams
+
+Enter First String:                                                                                   Tony
+Enter Second String: 
+tony            
+Not Anagrams
+
+Enter First String:                                                                                   Tony
+Enter Second String: 
+1234         
+Not Anagrams
+
+

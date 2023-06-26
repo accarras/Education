@@ -1,0 +1,15 @@
+Please enter a string less than 80 characters long.
+The autumn is here!
+Please input start position: 5
+Please input end position: 12
+Your string reversed is: The asi mnutu here!
+Y/y to continue, anything else quits 
+y
+Please enter a string less than 80 characters long.
+Have a great fall break!
+Please input start position: 6
+Please input end position: 18
+Your string reversed is: The ab llaf taerg reak!
+Y/y to continue, anything else quits 
+n
+Press any key to continue . . .

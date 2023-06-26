@@ -1,0 +1,63 @@
+//queue circular array
+void enqueue(int data)
+{
+  if (head == (tail + 1)){
+    cout << "Queue is full";
+  }
+  else {
+    tail++
+    array[tail] = data;	
+  }
+}
+
+int dequeue()
+{
+  if (head == tail){
+    cout << "Queue is empty";
+  }
+  else {
+    return array[head];
+    head++	
+  }
+}
+
+//queue linked list
+
+void enqueue(int data)
+{
+  int_Node *temp = new int_node;
+  if (temp == NULL){
+    cout << "Memory Allocation Failed" << endl;
+  }
+  else{
+    temp->datum = data;
+    temp->next = NULL
+  
+    if(head == NULL){
+      head = temp;
+    }
+    else {
+      tail->next = temp;
+    }
+    tail = temp;
+  }
+}
+
+int dequeue()
+{
+  node *temp = new node;
+  
+  if (head == NULL){
+    cout << "Queue is empty";
+  }
+  else{
+    temp = head;
+    head = head->next;
+    return temp->datum;
+    delete temp;
+  }
+}
+
+  
+  
+  

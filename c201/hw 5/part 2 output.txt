@@ -1,0 +1,4 @@
+Please enter a string less than 80 characters long.
+How are you?
+Your string reversed is: ?uoy era woH
+Press any key to continue . . .

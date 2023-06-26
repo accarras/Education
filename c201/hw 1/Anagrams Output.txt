@@ -1,0 +1,5 @@
+enter string 1:                                                                                                            tony                                                                                                                       enter string 2:                                                                                                            ynot                                                                                                                       
+Anagrams 
+
+enter string 1:                                                                                                            tony                                                                                                                       enter string 2:                                                                                                            tonyy                                                                                                                     
+Not Anagrams 
